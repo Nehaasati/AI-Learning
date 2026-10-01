@@ -1,0 +1,4 @@
+salary,Employees,Attrition_Rate,Avg_Satisfaction,Avg_Evaluation,Avg_Monthly_Hours,Avg_Projects,Avg_Tenure,Promotion_Rate
+high,1237,6.63,0.64,0.7,199.87,3.77,3.69,5.82
+low,7316,29.69,0.6,0.72,201.0,3.8,3.44,0.9
+medium,6446,20.43,0.62,0.72,201.34,3.81,3.53,2.81
