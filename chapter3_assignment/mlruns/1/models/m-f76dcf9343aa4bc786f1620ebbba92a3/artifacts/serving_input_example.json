@@ -1,0 +1,18 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "session_duration",
+      "click_count",
+      "cart_additions",
+      "time_of_day"
+    ],
+    "data": [
+      [
+        0.3047170797544313,
+        6,
+        2,
+        11
+      ]
+    ]
+  }
+}

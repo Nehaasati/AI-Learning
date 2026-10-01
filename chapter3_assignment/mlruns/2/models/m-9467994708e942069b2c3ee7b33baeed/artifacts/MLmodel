@@ -1,0 +1,40 @@
+artifact_path: file:C:/Users/31asa/Documents/Ai/AI-Learning/chapter3_assignment/mlruns/2/models/m-9467994708e942069b2c3ee7b33baeed/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.16.1
+model_id: m-9467994708e942069b2c3ee7b33baeed
+model_size_bytes: 13745054
+model_uuid: m-9467994708e942069b2c3ee7b33baeed
+prompts: null
+run_id: ed8f3cfb8c894bd4b03a9f33bf5be34b
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "carat", "required": true}, {"type": "string",
+    "name": "cut", "required": true}, {"type": "string", "name": "color", "required":
+    true}, {"type": "string", "name": "clarity", "required": true}, {"type": "double",
+    "name": "depth", "required": true}, {"type": "double", "name": "table", "required":
+    true}, {"type": "double", "name": "x", "required": true}, {"type": "double", "name":
+    "y", "required": true}, {"type": "double", "name": "z", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-01 16:10:33.573007'

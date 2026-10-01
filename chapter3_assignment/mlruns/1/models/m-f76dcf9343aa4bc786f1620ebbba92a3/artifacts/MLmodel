@@ -1,0 +1,36 @@
+artifact_path: file:c:/Users/31asa/Documents/Ai/AI-Learning/chapter3_assignment/mlruns/1/models/m-f76dcf9343aa4bc786f1620ebbba92a3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.7
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.16.1
+model_id: m-f76dcf9343aa4bc786f1620ebbba92a3
+model_size_bytes: 26642
+model_uuid: m-f76dcf9343aa4bc786f1620ebbba92a3
+prompts: null
+run_id: 9aec5d00bc2e42e086bd06b005c63454
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "session_duration", "required": true}, {"type":
+    "long", "name": "click_count", "required": true}, {"type": "long", "name": "cart_additions",
+    "required": true}, {"type": "long", "name": "time_of_day", "required": true}]'
+  outputs: '[{"type": "long", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-01 14:21:05.205174'

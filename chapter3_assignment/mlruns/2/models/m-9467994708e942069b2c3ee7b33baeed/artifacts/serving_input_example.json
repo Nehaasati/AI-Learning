@@ -1,0 +1,28 @@
+{
+  "dataframe_split": {
+    "columns": [
+      "carat",
+      "cut",
+      "color",
+      "clarity",
+      "depth",
+      "table",
+      "x",
+      "y",
+      "z"
+    ],
+    "data": [
+      [
+        2.01,
+        "Good",
+        "F",
+        "SI2",
+        58.1,
+        64.0,
+        8.23,
+        8.19,
+        4.77
+      ]
+    ]
+  }
+}
